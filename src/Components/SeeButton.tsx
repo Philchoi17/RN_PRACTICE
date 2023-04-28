@@ -1,8 +1,8 @@
 import React from 'react';
-import {Button, ButtonProps} from 'react-native-magnus';
+import {Button, ButtonProps, Text} from 'react-native-magnus';
 
-const SeeButton = () => {
-  return <></>;
+const SeeButton = (props: any) => {
+  return <Text>{JSON.stringify(props)}</Text>;
 };
 
 export default SeeButton;
